@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>그린스마트 - 미래 농업의 혁신</title>
+  <meta name="description" content="IoT 기반 스마트팜 전문 기업, 생산성 극대화"/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="brand">그린스마트</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">소개</a></li>
+        <li><a href="#services">서비스</a></li>
+        <li><a href="#tech">기술</a></li>
+        <li><a href="#contact">문의</a></li>
+      </ul>
+      <button class="hamburger" aria-label="메뉴 열기" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <img src="https://images.unsplash.com/photo-1523741543316-beb7fc7023d8?auto=format&fit=crop&w=1350&q=80" alt="스마트팜"/>
+    <div class="hero-content">
+      <h1>지능형 농장, 그린스마트</h1>
+      <p>IoT·AI 기술로 농업의 미래를 열다</p>
+      <a href="#services" class="btn-primary">서비스 살펴보기</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>우리는 농부의 소중한 하루를 되돌려드립니다</h2>
+      <p>그린스마트는 센서·빅데이터·AI를 결합해 물·비료·에너지를 최적화하고, 작물 수확량을 30% 이상 높여드립니다.</p>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <h2>서비스</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1574323347407-f5e1ad6962fb?auto=format&fit=crop&w=600&q=60" alt="온실 자동화"/>
+          <h3>온실 자동화</h3>
+          <p>온도·습도·CO₂ 실시간 제어로 최적 생육 환경 제공</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1589923188651-268a9765e432?auto=format&fit=crop&w=600&q=60" alt="수경재배"/>
+          <h3>수경재배 솔루션</h3>
+          <p>영양액 순환 시스템으로 수확량 ↑, 병해 ↓</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&w=600&q=60" alt="모니터링 대시보드"/>
+          <h3>모니터링 대시보드</h3>
+          <p>PC·모바일로 농장 상태 한 눈에</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tech" class="tech">
+    <div class="container">
+      <h2>핵심 기술</h2>
+      <ul>
+        <li>IoT 센서 네트워크 (온도, 습도, 조도, EC, pH 등)</li>
+        <li>AI 예측 모델링 (병해충·생장 예측)</li>
+        <li>에지 컴퓨팅으로 빠른 응답 및 오프라인 대응</li>
+        <li>RESTful API로 타 시스템과 쉬운 연동</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container">
+      <h2>지금 바로 농장을 스마트하게 바꿔보세요</h2>
+      <a href="#contact" class="btn-primary">무료 상담 신청</a>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>문의하기</h2>
+      <form id="contactForm">
+        <input type="text" name="name" placeholder="성함" required/>
+        <input type="email" name="email" placeholder="이메일" required/>
+        <input type="tel" name="phone" placeholder="연락처"/>
+        <textarea name="message" placeholder="문의 내용" rows="4" required></textarea>
+        <button type="submit">전송</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2024 그린스마트. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
